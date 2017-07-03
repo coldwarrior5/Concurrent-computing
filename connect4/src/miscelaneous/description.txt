@@ -1,0 +1,19 @@
+
+OVERVIEW: Connect4 is a game similar to tic tac toe with a twist. Player can choose a column in which he will throw the token. Token falls down on top of the previous tokens is there is available place on top. It uses MPI to calculate whether the game has finished or not
+
+USAGE: mpiexec -n <# of processes> <other options> ./executable <arguments>
+
+REQUIRED OPTIONS:
+ —n	 			-number of processes that will handle the calculations. It has to be grater or equal 2
+
+
+OTHER OPTIONS:
+ -hosts client, localhost	-every device that shall run this program
+
+ -f host_file			-text file that contains addresses of each node and how many cores will each computer offer
+
+
+ARGUMENTS:
+ First argument 		-is the name of the file that contains definition for board located in settings folder
+
+ Second argument		-is the maximum depth at which the program will check if the player or the computer is victorious, must be at least 4

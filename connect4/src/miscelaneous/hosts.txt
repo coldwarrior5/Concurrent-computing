@@ -1,0 +1,5 @@
+127.0.0.1   localhost:2
+
+#MPI CLUSTER SETUP
+192.168.5.1    workstation:4
+192.168.5.22   raspberryPi:4

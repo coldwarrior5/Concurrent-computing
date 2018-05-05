@@ -1,0 +1,8 @@
+language: c
+env:
+  - TEST_DIR="connect4/src/bin"
+  - TEST_DIR="dining-philosophers/src/bin"
+  
+script:
+  - cd "$TEST_DIR"
+  - gcc -std=c11 -coverage -O0 *.c -o main

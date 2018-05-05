@@ -6,5 +6,5 @@ before_install:
   - sudo apt-get install libopenmpi-dev
 script:
   - cd "$TEST_DIR"
-  - mpicc -o main *.c
+  - mpicc -std=c99 -o main *.c
 

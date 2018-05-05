@@ -5,4 +5,4 @@ env:
   
 script:
   - cd "$TEST_DIR"
-  - mpich -n 4 a.out
+  - mpiexec -n 4 a.out

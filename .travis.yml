@@ -7,3 +7,4 @@ before_install:
 script:
   - cd "$TEST_DIR"
   - mpicc -o main *.c
+

@@ -1,7 +1,7 @@
 language: c
 env:
   - TEST_DIR="connect4/src/bin"
-  - TEST_DIR="dining-philosophers/src/bin"
+  - TEST_DIR="dining-philosophers/src"
   
 script:
   - cd "$TEST_DIR"

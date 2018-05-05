@@ -2,7 +2,7 @@ language: c
 env:
   - TEST_DIR="connect4/src/bin"
   - TEST_DIR="dining-philosophers/src"
-before-install:
+before_install:
   - sudo apt-get install libopenmpi-dev
 script:
   - cd "$TEST_DIR"

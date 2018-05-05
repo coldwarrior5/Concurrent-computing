@@ -5,4 +5,4 @@ env:
   
 script:
   - cd "$TEST_DIR"
-  - gcc -std=c11 -coverage -O0 *.c -o main
+  - mpich -n 4 a.out
